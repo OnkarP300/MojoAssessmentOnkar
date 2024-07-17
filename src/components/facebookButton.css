@@ -1,0 +1,24 @@
+.page{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.facebook-button {
+    margin-left: 50px;
+    background-color: #0865ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.facebook-button:hover {
+    background-color: #2d4373;
+    scale: 1.5;
+}
